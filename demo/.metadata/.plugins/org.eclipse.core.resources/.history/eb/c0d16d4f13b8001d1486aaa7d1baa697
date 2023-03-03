@@ -1,0 +1,22 @@
+package demo;
+
+import java.util.Scanner;
+
+public class Reverse {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String string = scanner.next();
+		System.out.print("Enter Number : ");
+		String reversedStr = "";
+	    System.out.println("Original string: " + string );
+	        
+	    for (int i = 0; i < string.length(); i++) {
+	      reversedStr = string .charAt(i) + reversedStr;
+	    }
+	    
+	    System.out.println("Reversed string: "+ reversedStr);
+	  }
+	}
+		
+	}
+}

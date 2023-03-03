@@ -1,0 +1,38 @@
+package tutor4;
+
+import java.util.Scanner;
+
+public class ex_16 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int[] arr;
+		int num = 0, sum=0;
+		int min = 0;
+	    int max = 0;
+		System.out.printf("Number Input : ");
+		num = scanner.nextInt();
+		arr = new int[num];
+		for(int i=0; i<arr.length; i++) {
+			System.out.printf("Enter number[%d] : ", i+1);
+			arr[i] = scanner.nextInt();
+			sum += arr[i];
+			
+		}
+		float avg = (float)sum/arr.length;
+		System.out.printf("Sum = %d \n", sum);
+		System.out.printf("Average = %.2f\n", avg);
+		
+		for(int i=0; i<arr.length; i++) {
+		    if(min > arr[i]){
+		    	min = arr[i];
+		    }	    
+			if(max < arr[i]) {
+		        max = arr[i];
+		    }
+		    
+		}
+		System.out.printf("Min = %d\n", min);
+	    System.out.printf("Max = %d\n", max);
+	    
+}
+}

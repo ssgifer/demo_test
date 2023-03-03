@@ -1,0 +1,8 @@
+package tutor2;
+
+public class test8print9 {
+	public static void main(String[] args) {
+		boolean result = !false || true && false || !true;
+		System.out.println(result);
+	}
+}

@@ -1,0 +1,8 @@
+package demo.tutor2;
+
+public class test8print2 {
+	public static void main(String[] args) {
+		int result = (int)((5 - 2 / 1) + 0.000 + '\u0000');
+		System.out.println(result);
+	}
+}

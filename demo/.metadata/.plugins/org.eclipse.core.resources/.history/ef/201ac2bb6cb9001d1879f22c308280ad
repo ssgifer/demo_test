@@ -1,0 +1,11 @@
+package demo;
+
+public class test02 {
+	public static void main(String[] args) {
+		int a = 0;
+		for(a=0; a<=100; a++) {
+			System.out.println(a);
+		}
+		System.out.println("Stop");
+	}
+}

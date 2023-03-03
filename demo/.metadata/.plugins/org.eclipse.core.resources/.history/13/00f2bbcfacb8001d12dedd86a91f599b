@@ -1,0 +1,8 @@
+package demo.tutor2;
+
+public class test9ans8 {
+	public static void main(String[] args) {
+		//(short)((double)(1 / 2) == 00L + 0));
+		System.out.println((short)((double) 1 / 2) == 00L + 0);
+}
+}

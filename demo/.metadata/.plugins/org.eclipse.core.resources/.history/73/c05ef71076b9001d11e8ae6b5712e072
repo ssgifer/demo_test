@@ -1,0 +1,13 @@
+package tutor2;
+
+public class test11 {
+	public static void main(String args[]) {
+		int a = 0;
+        int b = 987;
+        int cal = (b - a + 1) + a;
+        for (int i = 0; i < 10; i++) {
+        int rand = (int)(Math.random() * cal);
+        	System.out.println(rand);
+    }
+}
+}

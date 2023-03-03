@@ -1,0 +1,8 @@
+package demo;
+
+public class Test {
+	public static void main(String[] args) {
+		System.out.println("My first JAVA program\n");
+		System.out.println(" My JAVA tutor web site is “http://www.javachula.co.cc”\n");
+	}
+}

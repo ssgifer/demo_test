@@ -1,0 +1,13 @@
+package tutor3;
+
+public class test7_4 {
+	public static void main(String[] args) {
+		int a = 2;
+		if(--a == 2) {
+			System.out.println("True");
+		}
+		else {
+			System.out.println("False");
+		}
+	}
+}

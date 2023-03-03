@@ -1,0 +1,22 @@
+package demo.tutor2;
+
+import java.util.Scanner;
+
+public class test10math3 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("x : ");
+		int x = scanner.nextInt();
+		System.out.print("y : ");
+		int y = scanner.nextInt();
+		float cal1 = (float)((3 * Math.pow(x, 3)) + (4 * Math.pow(y, 4)));
+		float cal2 = (float)((x+y) * (x-y));
+		float cal3 = (float)(Math.PI * x * y);
+		float result = (float)((cal1 / cal2) + cal3);
+		System.out.printด("Result = %.2f", result);
+	}
+}
+
+//x : 5
+//y : 2
+//52.320686

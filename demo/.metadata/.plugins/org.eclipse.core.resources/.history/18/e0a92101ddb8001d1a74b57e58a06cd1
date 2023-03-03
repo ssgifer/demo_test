@@ -1,0 +1,8 @@
+package tutor2;
+
+public class test8print8 {
+	public static void main(String[] args) {
+		float result = (float)(4E1 / 2);
+		System.out.println(result);
+	}
+}

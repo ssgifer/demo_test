@@ -1,0 +1,8 @@
+package demo.tutor2;
+
+public class test9ans4 {
+	public static void main(String[] args) {
+		char c = (double)('A');
+		System.out.println(c);
+	}
+}

@@ -1,0 +1,12 @@
+package tutor4;
+
+public class test15_1 {
+	public static void main(String[] args) {
+		int sum=0, tmp=0;
+		for(int i=0; i<=10; i++) {
+			tmp = sum;
+			sum += i*3;
+			System.out.printf("%d\t", sum);
+		}
+	}
+}

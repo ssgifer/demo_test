@@ -1,0 +1,14 @@
+package tutor4;
+
+import java.util.Scanner;
+
+public class test31 {
+	public static void main(String[] args) {
+		while(true) { 
+			int i = 1000; 
+			if(i<=1000)
+			System.out.println("เกรียน"); 
+			break;
+		} 
+	}
+}

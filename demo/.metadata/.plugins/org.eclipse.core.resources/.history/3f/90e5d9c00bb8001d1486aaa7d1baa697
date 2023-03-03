@@ -1,0 +1,19 @@
+package demo;
+
+import java.util.Scanner;
+
+public class Student {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Enter ID : ");
+		int id = scanner.nextInt();
+		System.out.print("Enter Name : ");
+		String name = scanner.next();
+		System.out.print("Enter Age : ");
+		int age = scanner.nextInt();
+		System.out.print("Enter GPA : ");
+		float gpa = scanner.nextFloat(); 
+		System.out.println("Hello\n" +  "ID : \n" + id + "Name : \n" + " " + "Age : \n" + age + "GPA : \n" + gpa);
+	}
+	//System.out.println();
+}

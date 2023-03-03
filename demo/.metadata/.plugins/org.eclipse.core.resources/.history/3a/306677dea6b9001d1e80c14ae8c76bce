@@ -1,0 +1,42 @@
+package tutor4;
+
+import java.util.Scanner;
+
+public class ex_18 {
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.print("Number : ");
+		int n = in.nextInt();
+//		for(int i=1; i<=n; i++) {
+//			if(n%2 == 0) {
+//				System.out.printf("%d is a prime number", n);
+//			}
+//			else{
+//				System.out.printf("%d is not a prime number", n);
+//			}
+//		}
+		int k=2;
+		while(k>=n) {
+			if(n%2 == 0) {
+				System.out.printf("%d is a prime number", n);
+				k++;
+			}
+			else {
+				System.out.printf("%d is a prime number", n);
+				k++;
+			}
+		System.out.println();
+		}
+		
+//		Scanner kb = new Scanner(System.in);
+//	    System.out.print("n = ");
+//	    int n = kb.nextInt();
+//	    int k = 2;                  // ลองหารด้วย k = 2, 3, ..., n-1
+//	    while (true) {
+//	      if (k >= n) break;        // หลุดจากวงวนเมื่อลองหารครบทุกตัวแล้ว 
+//	      if ((n % k) == 0) break;  // หลุดจากวงวนเมื่อพบ k ที่หาร n ลงตัว 
+//	      k++;
+//	    }
+//	    System.out.println(k == n); // ถ้า k เท่ากับ n แสดงว่า n เป็นจำนวนเฉพาะ 
+	}
+}

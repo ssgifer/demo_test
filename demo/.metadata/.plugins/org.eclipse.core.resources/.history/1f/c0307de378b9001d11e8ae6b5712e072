@@ -1,0 +1,36 @@
+package tutor2;
+
+import java.util.Scanner;
+
+public class ex_14 {
+	public static void main(String[] args) {
+		int amount;
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Enter Money : ");
+		int mon = scanner.nextInt();
+		while ((mon>20000)||(mon%100!=0))
+		{
+			System.out.printf("*** Sorry please enter money again ***\n");
+			System.out.print("Enter Money : ");
+		}
+		System.out.printf("Total Bank Note \n");
+		if (mon/1000 !=0)
+		{
+			amount = mon/1000;
+			mon = mon%1000;
+			System.out.printf("Banknote 1000 : %d \n", amount);
+		}
+		if (mon/500 !=0)
+		{
+			amount = mon/500;
+			mon = mon%500;
+			System.out.printf("Banknote 500 : %d \n", amount);
+		}
+		if (mon/100 !=0)
+		{
+			amount = mon/100;
+			mon = mon%100;
+			System.out.printf("Banknote 100 : %d \n", amount);
+		}
+	}
+}

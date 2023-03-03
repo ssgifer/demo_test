@@ -1,0 +1,21 @@
+package tutor4;
+
+import java.util.Scanner;
+
+public class ex_16 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int[] num = new int[10];
+		int n, sum=0;
+		float avg=0;
+		for(int i=1; i<=num.length; i++) {
+			System.out.printf("Enter number[%d] : ", i);
+			num[i] = scanner.nextInt();
+			sum += num[i];
+		}
+		avg = sum/num.length;
+		System.out.printf("Sum = %d", sum);
+		System.out.printf("Average = %d", avg);
+		
+	}
+}

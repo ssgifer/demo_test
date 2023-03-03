@@ -1,0 +1,13 @@
+package tutor3;
+
+import java.util.Scanner;
+
+public class test11 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("\t | \t | \t ");
+		int d = scanner.nextInt();
+		int m = scanner.nextInt();
+		int y = scanner.nextInt();
+	}
+}

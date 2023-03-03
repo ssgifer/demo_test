@@ -1,0 +1,17 @@
+package tutor4;
+
+import java.util.Scanner;
+
+public class ex_18 {
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.print("Number : ");
+		int n = in.nextInt();
+		if((n%n == 0) && (n%1 == 0)) {
+			System.out.printf("%d is a prime number", n);
+		}
+		else {
+			System.out.printf("%d is not a prime number", n);
+		}
+	}
+}

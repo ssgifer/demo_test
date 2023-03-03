@@ -1,0 +1,93 @@
+package tutor2;
+
+import java.util.Scanner;
+
+public class ex_14 {
+	public static void main(String[] args) {
+		int amount;
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Money : ");
+		int money = scanner.nextInt();
+		if(money/1000 !=0) {
+			amount = money/1000;
+			money = money%1000;
+			System.out.printf("1000 Baht\t : %d\n", amount);
+		
+		}
+		else {
+			System.out.printf("1000 Baht\t : 0\n");
+		}
+		
+		if(money/500 !=0) {
+			amount = money/500;
+			money = money%500;
+			System.out.printf("500 Baht\t : %d\n", amount);
+		}
+		else {
+			System.out.printf("500 Baht\t : 0\n");
+		}
+		
+		if(money/100 !=0) {
+			amount = money/100;
+			money = money%100;
+			System.out.printf("100 Baht\t : %d\n", amount);
+		}
+		else {
+			System.out.printf("100 Baht\t : 0\n");
+		}
+		
+		if(money/50 != 0) {
+			amount = money/50;
+			money = money%50;
+			System.out.printf("50 Baht\t : %d\n", amount);
+		}
+		else {
+			System.out.printf("50 Baht\t : 0\n");
+		}
+		
+		if(money/20 !=0) {
+			amount = money/20;
+			money = money%20;
+			System.out.printf("20 Baht\t : %d\n", amount);
+		}
+		else {
+			System.out.printf("20 Baht\t : 0\n");
+		}
+		
+		if(money/10 !=0) {
+			amount = money/10;
+			money = money%10;
+			System.out.printf("10 Baht\t : %d\n", amount);
+		}
+		else {
+			System.out.printf("10 Baht\t : 0\n");
+		}
+		
+		if(money/5 !=0) {
+			amount = money/5;
+			money = money%5;
+			System.out.printf("5 Baht\t : %d\n", amount);
+		}
+		else {
+			System.out.printf("5 Baht\t : 0 \n");
+		}
+		
+		if(money/2 !=0) {
+			amount = money/2;
+			money = money%2;
+			System.out.printf("2 Baht\t : %d\n", amount);
+		}
+		else {
+			System.out.printf("2 Baht\t : 0\n");
+		}
+		
+		if(money/1 !=0) {
+			amount = money/1;
+			money = money%1;
+			System.out.printf("1 Baht\t : %d\n", amount);
+		}
+		else {
+			System.out.printf("1 Baht\t : 0\n");
+		}
+	}
+}

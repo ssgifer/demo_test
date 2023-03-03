@@ -1,0 +1,9 @@
+package demo.tutor2;
+
+public class test6cal3 {
+	public static void main(String[] args) {
+		double a = 1.6;
+		a += 5.1;
+		System.out.println(a % 4);
+	}
+}

@@ -1,0 +1,7 @@
+package demo.tutor2;
+
+public class test9ans10 {
+	public static void main(String[] args) {
+		System.out.println((byte) '0' – '6' + (char) 1.5);
+	}
+}

@@ -1,0 +1,19 @@
+package demo;
+
+import java.util.Scanner;
+
+public class Student {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Enter ID : ");
+		int id = scanner.nextInt();
+		System.out.print("Enter Name : ");
+		String name = scanner.next();
+		System.out.print("Enter Age : ");
+		int age = scanner.nextInt();
+		System.out.print("Enter GPA : ");
+		double gpa = scanner.nextInt(); 
+		System.out.println("Hello" + "ID : " + id + "Name : " + name + "Age : " + age + "GPA : " + gpa);
+	}
+	//System.out.println();
+}

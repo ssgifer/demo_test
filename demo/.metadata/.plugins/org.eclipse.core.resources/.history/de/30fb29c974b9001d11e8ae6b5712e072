@@ -1,0 +1,17 @@
+package tutor4;
+
+public class test3_2 {
+	public static void main(String args[])
+    {
+		int a = 2;
+        int b = 600;
+        int cal = (b - a + 1) + a;
+        for (int i = 0; i < 600; i++) {
+        int rand = (int)(Math.random() * cal);
+        	System.out.println(rand);
+        	if(rand = 5) {
+        		break;
+        	}
+        }
+    }
+}

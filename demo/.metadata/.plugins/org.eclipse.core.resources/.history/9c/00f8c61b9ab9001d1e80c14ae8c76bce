@@ -1,0 +1,15 @@
+package tutor4;
+
+import java.util.Scanner;
+
+public class ex_16 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Enter number : ");
+		int in = scanner.nextInt();
+		int num = n[100];
+		for(int i=1; i<=in; i++) {
+			System.out.println("");
+		}
+	}
+}

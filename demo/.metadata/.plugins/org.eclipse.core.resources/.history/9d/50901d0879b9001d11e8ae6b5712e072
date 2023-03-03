@@ -1,0 +1,53 @@
+package tutor2;
+
+import java.util.Scanner;
+
+public class ex_14 {
+	public static void main(String[] args) {
+		int amount;
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Money : ");
+		int mon = scanner.nextInt();
+		if(mon/1000 !=0) {
+			amount = mon/1000;
+			mon = mon%1000;
+			System.out.printf("1000 Baht: %d \n", amount);
+		}
+		if(mon/500 !=0) {
+			amount = mon/500;
+			mon = mon%500;
+			System.out.printf("500 Baht : %d \n", amount);
+		}
+		if(mon/100 !=0) {
+			amount = mon/100;
+			mon = mon%100;
+			System.out.printf("100 Baht : %d \n", amount);
+		}
+		if(mon/50!=0) {
+			amount = mon/50;
+			mon = mon%50;
+			System.out.printf("50 Baht : %d \n", amount);
+		}
+		if(mon/20 !=0) {
+			amount = mon/20;
+			mon = mon%20;
+			System.out.printf("20 Baht : %d \n", amount);
+		}
+		else if(mon/10 !=0) {
+			amount = mon/10;
+			mon = mon%10;
+			System.out.printf("10 Baht : %d \n", amount);
+		}
+		if(mon/5 !=0) {
+			amount = mon/5;
+			mon = mon%5;
+			System.out.printf("5 Baht : %d \n", amount);
+		}
+		if(mon/1 !=0) {
+			amount = mon/1;
+			mon = mon%1;
+			System.out.printf("1 Baht : %d \n", amount);
+		}
+		
+	}
+}

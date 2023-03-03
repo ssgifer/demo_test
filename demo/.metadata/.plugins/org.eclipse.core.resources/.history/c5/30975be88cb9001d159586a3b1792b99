@@ -1,0 +1,19 @@
+package tutor4;
+
+import java.util.Scanner;
+
+public class ex_8 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Enter A : ");
+		int a = scanner.nextInt(); 	
+		System.out.print("Enter B : ");
+		int b = scanner.nextInt();
+		System.out.printf("Result = %d");
+		for(int i=1; i<=b; i++) {
+			int result = (int)Math.pow(a, b); 
+			System.out.print(result);
+		}
+		System.out.println();
+	}  
+}

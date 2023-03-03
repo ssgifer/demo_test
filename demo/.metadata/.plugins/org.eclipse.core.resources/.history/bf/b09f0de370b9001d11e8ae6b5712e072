@@ -1,0 +1,14 @@
+package tutor4;
+
+public class test3_1 {
+	public static void main(String[] args) {
+		//for(int i=1; i<=1000; i++) { 
+		int a = 0;
+		while(a<=100) {
+			System.out.printf("Noob[%d]\n", a);
+			a++;
+		}
+		System.out.println("Stop");
+//		System.out.println(" "); 
+	}
+}

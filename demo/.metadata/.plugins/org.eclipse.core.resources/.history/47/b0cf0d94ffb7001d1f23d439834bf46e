@@ -1,0 +1,26 @@
+package demo;
+
+import java.util.Scanner;
+
+//import java.util.Scanner;
+
+public class Shape {
+	public static void main(String[] args) {
+		Scanner kb = new Scanner(System.in);
+		int n = kb.nextInt();
+		for (int row=1; row<=n; row++) {
+            for (int col=1; col<=row; col++) {
+                System.out.print("*");
+            }
+ 
+            System.out.println();
+		}
+		for (int row=n; row>=1; row--) {
+			for (int col=1; col<=row; col++) {
+	            System.out.print("*");
+	        } 
+	            System.out.println();
+	        }
+	    }
+	}
+

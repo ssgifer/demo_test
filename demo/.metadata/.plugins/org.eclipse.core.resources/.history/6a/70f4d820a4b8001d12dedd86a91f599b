@@ -1,0 +1,10 @@
+package demo.tutor2;
+
+import java.util.Scanner;
+
+public class test6cal1 {
+	public static void main(String[] args) {
+		int a = 21, b = 0;
+		System.out.printf("a" + (a - b));
+	}
+}

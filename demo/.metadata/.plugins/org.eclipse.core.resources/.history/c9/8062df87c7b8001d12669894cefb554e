@@ -1,0 +1,17 @@
+package tutor3;
+
+import java.util.Scanner;
+
+public class test7 {
+	public static void main(String[] args) {
+//		Scanner scanner = new Scanner(System.in);
+//		System.out.print("Enter Num : ");
+//		int num = scanner.nextInt();
+		if((2 < 5) && (6 != 7) || (3 > 4)) {
+			System.out.println("True");
+		}
+		else {
+			System.out.println("False");
+		}
+	}
+}

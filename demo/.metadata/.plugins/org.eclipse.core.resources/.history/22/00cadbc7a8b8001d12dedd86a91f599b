@@ -1,0 +1,8 @@
+package demo.tutor2;
+
+public class test8print6 {
+	public static void main(String[] args) {
+		float result = (float)((13 / 5) + (2 / 3));
+		System.out.println(result);
+	}
+}

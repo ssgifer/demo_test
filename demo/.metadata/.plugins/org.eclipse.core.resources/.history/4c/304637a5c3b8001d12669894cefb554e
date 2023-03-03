@@ -1,0 +1,8 @@
+package demo.tutor2;
+
+public class test9ans3 {
+	public static void main(String[] args) {
+		float result = (float)((3 + 2) / 7);
+		System.out.println(result);
+	}
+}

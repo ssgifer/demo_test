@@ -1,0 +1,8 @@
+package tutor2;
+
+public class test8print3 {
+	public static void main(String[] args) {
+		int result = (int)(5.0F * 6 - ('D' - 'A'));
+		System.out.println(result);
+	}
+}
