@@ -21,9 +21,9 @@ public class ex_16 {
 		System.out.printf("Sum = %d \n", sum);
 		System.out.printf("Average = %.2f\n", avg);
 		
+		min = arr[0];
+		max = arr[0];
 		for(int i=0; i<arr.length; i++) {
-			min = arr[0];
-			max = arr[0];
 		    if(min > arr[i]){
 		    	min = arr[i];
 		    }	    
